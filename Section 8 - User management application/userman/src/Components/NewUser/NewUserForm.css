@@ -1,0 +1,25 @@
+.newuserform {
+    padding: 5px;
+    width: auto;
+}
+
+.newuserform button {
+    background-color: rgb(181, 253, 219);
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+}
+
+.newuserform input {
+    background-color: rgb(255, 255, 255);
+    max-width: 95%;
+}
+
+.newuserform.invalid input {
+    background-color: rgb(255, 255, 255);
+    max-width: 95%;
+    color: red;
+    background-color: red;
+    border-color: palevioletred;
+}
