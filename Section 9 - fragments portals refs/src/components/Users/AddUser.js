@@ -32,7 +32,7 @@ const AddUser = (props) => {
     }
     props.onAddUser(enteredName, enteredUserAge);
 
-    // bad practice, but it's OK for user input. We're manipulating the dom directly here.
+    // bad practice, but it's OK for user input. We're manipulating the dom directly here.y
     // otherwise you can use state
     // but using state now will be a lot of extra code
     nameInputRef.current.value = '';

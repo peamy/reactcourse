@@ -5,7 +5,7 @@ import NewUser from './Components/NewUser/NewUser'
 import AddUser from './ComponentsLecturer/Users/AddUser'
 import UsersList from './ComponentsLecturer/Users/UsersList'
 
-function App() {
+export function App() {
     const [users, SetUsers] = useState([
         { name: 'Dennis', age: 21, id: 1234 },
         { name: 'Bob', age: 23, id: 4567 },
@@ -29,7 +29,7 @@ function App() {
     )
 }
 
-function MyApp() {
+export function MyApp() {
     const [users, SetUsers] = useState([
         { name: 'Dennis', age: 21, id: 1234 },
         { name: 'Bob', age: 23, id: 4567 },
@@ -48,5 +48,3 @@ function MyApp() {
         </div>
     )
 }
-
-export default App

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 
 import Card from '../UI/Card/Card'
 import classes from './Login.module.css'
@@ -35,7 +35,7 @@ const Login = (props) => {
 
     const emailChangeHandler = (event) => {
         setEnteredEmail(event.target.value)
-    }
+    };
 
     const passwordChangeHandler = (event) => {
         setEnteredPassword(event.target.value)
